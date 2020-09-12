@@ -1,0 +1,222 @@
+body{
+	margin: 0px;
+	}
+#header-body{
+	height: 65vh;
+	background-image: url("image.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	opacity: 5 ;
+}
+.horizontal-list{
+	list-style: none;
+	/*padding-left: 0px ;*/
+	text-align: center ;
+
+}
+.horizontal-list li{
+	font-size: 25px;
+	display: inline-block;
+	margin: 0px 50px 50px 0px ;
+
+}
+.horizontal-list li a{
+	color: white;
+	text-decoration: none;
+
+}
+.nav-manu li a{
+	transition: color 0.5s ,border-bottom 4s;
+}
+.nav-manu li a:hover {
+	color: lightgray;
+	border-bottom: 1px solid white;
+	transition: color 0.5s ;
+
+
+}
+.text-center{
+	text-align: center;
+	
+
+}
+#name-social{
+	margin-top: 20vh ;
+
+}
+#my-name{
+	font-size: 3rem;
+	letter-spacing: 0.1rem ;
+	color: white;
+	font-weight: 700;
+	margin-bottom: 0.5rem ;
+	border-radius: 50% ;
+}
+.social-icon li a i{
+	padding: 10px ;
+	font-size: 1rem;
+	color: white ;
+	border-radius: 50% ;
+}
+
+.social-icon li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+#about{
+	height: auto ;
+	width: 100% ;
+	position: relative;
+	align-self: center;
+}
+#my-image{
+	height: 12rem;
+	width: 12rem;
+	margin: auto ;
+	margin-top: -17vh ;
+	border-radius: circle ;
+}
+#my-image img {
+	height: 100% ;
+	width: 100% ;
+	border-radius: 50% ;
+	box-shadow: 0px 0px 10px gray;
+	border: 3px solid white;
+	box-shadow: 1px 1px 10px 2px lightgrey; 
+
+}
+#text-highlight{
+	color: #2857a4 ;
+	font-weight: 600 ;
+
+}
+section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+section:nth-child(2n){
+background-color: #9e9b9b29;;
+}
+section:nth-child(2n + 1){
+background-color: white;
+}
+#about-para{
+	
+	width: 70%;
+	height: 100%  ;
+	line-height: 28px;
+	font-weight: 600;
+	text-align: justify;
+	margin: auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1.1rem;
+	color: grey;
+
+}
+.section-heading {
+	width:  auto;
+	padding: 20px 10px 10px ;
+	font-size: 400;
+	
+
+}
+.section-heading span {
+	font-size: 40px ;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+
+}
+
+.skills-display {
+    width: 70%;
+    /*height: 100px;*/
+    /*border: 2px solid black; 	*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.skillsss {
+	font-size: 30px;
+	font-weight: 100;
+	color: #2857a4;
+    display: center;
+    padding-top: 10px;
+    margin-right: 0.5rem; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills-progress {
+	width: 7rem;
+	height: 1.4rem ;
+	background-color:grey ;
+	border-radius: 0.8rem ;
+	display: inline-block;
+	/*border: 0.5px solid grey;*/
+}
+/*.skills-progress span {
+	width: 70%;
+	height: 100%;
+	background-color: grey;
+
+	width: 7rem;
+	height: 1.4rem ;
+	background-color: red ;
+	border-radius: 0.8rem ;
+	/*border: 0.5px solid grey;*/
+.skills-name span{
+	color: white ;
+	font-size: 1rem;
+	margin-left: 10px;
+
+
+	
+}
+.skills-progress > div {
+	border-radius: 20px 0px 0px 20px ;
+	box-shadow: 0px 0px 10px gray;
+}
+.sixty-percent{
+	width: 60% ;
+	height: inherit;
+	background-color:#3CB371;
+}
+.eighty-percent{
+	
+	width: 80% ;
+	height: inherit;
+	background-color: #A52A2A;
+}
+.seventy-percent{
+	
+	width: 70% ;
+	height: inherit;
+	background-color: #C71585 ;
+}
+.eightytwo-percent{
+		width: 70% ;
+	height: inherit;
+	background-color: #FFA500 ;
+}
+.fifty-percent {
+	
+	width: 70% ;
+	height: inherit;
+	background-color: #9370DB;
+}
+.sixtyfive-percent{
+	width: 80% ;
+	height: inherit;
+	background-color: #800000;
+}
+}
